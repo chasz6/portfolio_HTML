@@ -1,0 +1,20 @@
+div, label, input {
+    display: block;
+}
+
+div:not(:first-of-type) {
+    padding-top: 1em;
+}
+
+
+form {
+    display: inline-block;
+    padding: 2em 5em;
+    background-color: hsla(360, 100%, 100%, .5);
+    border-radius: 10px;
+    margin: 10% 50%;
+}
+
+body {
+    background-color: #90bbb4;
+}
